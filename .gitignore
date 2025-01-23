@@ -33,3 +33,5 @@
 
 # Other
 *.vs
+bin/
+bin-int/
