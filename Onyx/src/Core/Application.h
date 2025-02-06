@@ -8,6 +8,8 @@ namespace Onyx {
 	public:
 		void Run();
 	};
+
+	Application* CreateApplication();
 }
 
 

@@ -35,3 +35,7 @@
 *.vs
 bin/
 bin-int/
+
+# Visual Code Project Files
+*.vcxproj.filters
+*.vcxproj.user

@@ -11,8 +11,6 @@ public:
 	}
 };
 
-void main() {
-	Sandbox* sandbox = new Sandbox();
-	sandbox->Run();
-	delete sandbox;
+Onyx::Application* Onyx::CreateApplication() {
+	return new Sandbox();
 }
