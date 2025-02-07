@@ -1,0 +1,3 @@
+[submodule "Onyx/vendor/spdlog"]
+	path = Onyx/vendor/spdlog
+	url = https://github.com/gabime/spdlog

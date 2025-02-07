@@ -57,8 +57,8 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>ONYX_PLATFORM_WINDOWS</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)Onyx\src</AdditionalIncludeDirectories>
-      <AdditionalOptions>/IC:\workspace\GameEngine\Onyx\src %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>$(SolutionDir)Onyx\src;$(SolutionDir)Onyx\vendor\spdlog\include</AdditionalIncludeDirectories>
+      <AdditionalOptions>/IC:\workspace\GameEngine\Onyx\src /IC:\workspace\GameEngine\Onyx\vendor\spdlog\include /utf-8 %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -73,8 +73,8 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>ONYX_PLATFORM_WINDOWS</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)Onyx\src</AdditionalIncludeDirectories>
-      <AdditionalOptions>/IC:\workspace\GameEngine\Onyx\src %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>$(SolutionDir)Onyx\src;$(SolutionDir)Onyx\vendor\spdlog\include</AdditionalIncludeDirectories>
+      <AdditionalOptions>/IC:\workspace\GameEngine\Onyx\src /IC:\workspace\GameEngine\Onyx\vendor\spdlog\include /utf-8 %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
