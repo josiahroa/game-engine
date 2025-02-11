@@ -34,8 +34,9 @@
 # Other
 *.vs
 bin/
-bin-int/
+obj/
 
-# Visual Code Project Files
-*.vcxproj.filters
-*.vcxproj.user
+# Generated Files
+*.vcxproj
+*.vcxproj.*
+*.sln
